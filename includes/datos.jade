@@ -1,0 +1,12 @@
+section#datos
+		
+	mixin datos(img, description)
+		figure
+			img(src="#{img}")
+			figcaption
+				p #{description}
+				
+	div.container-datos
+		+datos("images/ideas/data.svg", "Following their work together during the Jubilee “Drop the Debt” movement, Bono, Bob Geldof, Bobby Shriver, Jamie Drummond and Lucy Matthew.")
+		+datos("images/ideas/binary.svg", "Following their work together during the Jubilee “Drop the Debt” movement, Bono, Bob Geldof, Bobby Shriver, Jamie Drummond and Lucy Matthew.")
+		+datos("images/ideas/load.svg", "Following their work together during the Jubilee “Drop the Debt” movement, Bono, Bob Geldof, Bobby Shriver, Jamie Drummond and Lucy Matthew.")

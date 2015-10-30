@@ -1,0 +1,39 @@
+#datos
+	background: black
+	position: relative
+	z-index: 2
+	&:after
+		right: 15%
+		width: 100px
+		height: 100px
+		bottom: -50px
+		background: black
+		display: block
+		position: absolute
+		content: ""
+		transform: translateX(-50%) rotate(45deg)
+
+.container-datos
+	max-width: $guide
+	margin: 0 auto
+	width: 90%
+	display: flex
+	justify-content: space-between
+	align-items: center
+	padding: 3.5em 0
+	flex-wrap: wrap
+
+	@media (max-width: 700px)
+		justify-content: center
+
+	figure
+		margin: 50px
+		width: 220px
+
+		img
+			margin: 15px auto
+			fill: $yellow
+			width: 125px
+
+		p
+			color: $white

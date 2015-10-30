@@ -1,0 +1,49 @@
+#who
+	background: $dark-white
+	position: relative
+	z-index: 2
+	&:after
+		left: 19.4%
+		width: 100px
+		height: 100px
+		bottom: -50px
+		background: $dark-white
+		display: block
+		position: absolute
+		content: ""
+		transform: translateX(-50%) rotate(45deg)
+		z-index: 2
+
+.who-container
+	display: flex
+	max-width: $guide
+	margin: 0 auto
+	width: 90%
+	align-items: center
+	padding: 4.5em 0
+
+	@media (max-width: 850px)
+		justify-content: center
+
+	article
+		width: 60%
+		margin: 2em 0
+		h2
+			span
+				color: $grey
+		p
+			font-size: 1.4em
+			font-weight: 800
+			.span-g
+				color: $grey
+			.span-y
+				color: $yellow
+	figure
+		margin: 2em 0
+
+.image-decoration
+	margin-top: 7em
+	margin-left: 10em
+
+	@media (max-width: 850px)
+		display: none

@@ -1,0 +1,25 @@
+section#team
+	.team-container
+		article
+			h2 LOREM IPSUM <span>DOLOR SIT</span>
+			h3 LOREM IPSUM DOLOR SIT AMET, CONSECTEUR
+			figure
+				img(src="includes/icons/equipo.svg", alt="")
+
+	mixin team(img, name, ocupation, description)
+		figure
+			img(src="#{img}")
+			figcaption
+				h3 #{name}
+				h3.yellow #{ocupation}
+				p #{description}
+			
+	div.container-team
+		+team("images/team/sheldon.png", "Sheldon Lee Cooper", "First", "Meh food truck Kickstarter organic, semiotics tattooed pickled Blue Bottle Intelligentsia literally.")
+		+team("images/team/leonard.png", "Leonard Hofstatder", "Second", "Meh food truck Kickstarter organic, semiotics tattooed pickled Blue Bottle Intelligentsia literally.")
+		+team("images/team/howard.png", "Howard Wolovitz", "Third", "Meh food truck Kickstarter organic, semiotics tattooed pickled Blue Bottle Intelligentsia literally.")
+		+team("images/team/raj.png", "Rajesh Cuthrappali", "Fourth", "Meh food truck Kickstarter organic, semiotics tattooed pickled Blue Bottle Intelligentsia literally.")
+		
+	div.barra
+		article
+			h2 FEEL LIKE SHORE IS THE RIGHT THEME FOR YOUR NEXT CREATIVE PROJECT?

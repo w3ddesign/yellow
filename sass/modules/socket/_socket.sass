@@ -1,0 +1,99 @@
+#contact
+	position: fixed
+	bottom: 0
+	display: inline-block
+	width: 100%
+	height: 760px
+	border-top: 10px solid $yellow
+	z-index: 0
+
+	background:
+		image: url(../images/socket.jpg)
+		repeat: no-repeat
+		position: center center
+
+.container-info
+	width: 50%
+
+	background:
+		color: rgba(0,0,0,0.8)
+	height: 100%
+
+	article
+		margin: 1em 1em 0 12.5vw
+
+	h3
+		color: $white
+		text-transform: uppercase
+
+	figure
+		img
+			padding: 1em 0
+		figcaption
+			p
+				text-align: left
+				color: $white
+
+.container-contact
+	display: flex
+	flex-wrap: wrap
+	margin: 1em 0 0 12.5vw
+
+	@media (max-width: 1024px)
+		padding: 2em 0
+
+	@media (max-width: 480px)
+		justify-content: center
+		margin: 0 auto
+
+	figure
+		min-width: 150px
+		width: 33.33%
+
+		@media (max-width: 480px)
+			width: 100%
+
+			img
+				margin: 0.5em auto
+
+			figcaption p
+				text-align: center
+
+
+.container-wallpaper
+	width: 50%
+
+footer
+	background-color: black
+	width: 100%
+	display: inline-block
+	text-transform: uppercase
+	color: $dark-white
+	text-align: center
+	position: absolute
+	bottom: 0
+
+	p
+		font-family: $header-font
+		font-size: 1.5em
+		margin: 1em auto
+
+@media screen and (max-width: 70em)
+	#contact, footer
+		position: relative
+		height: auto
+
+	.container-logo
+		display: none
+	.container-info
+		width: 100%
+		margin: 0 auto
+
+		article
+			width: 80%
+			margin: 0 auto
+			text-align: center
+	footer
+		font-size: 70%
+		p
+			width: 90%

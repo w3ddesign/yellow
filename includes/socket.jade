@@ -1,0 +1,28 @@
+section#contact
+	.container-info
+		.container-logo
+			figure.logo
+				a(href="index.html")
+					img(src="images/logo.svg", alt="")
+
+		article
+			h2 Lorem Ipsum <span>Consecteur</span>
+			h3 Lorem ipsum dolor sit amet, consectetur adipiscing elit
+
+		mixin contacto(img, description, description2, description3)
+			figure
+				img(src="#{img}")
+				figcaption
+					p #{description}
+					p #{description2}
+					p #{description3}
+
+		div.container-contact
+			+contacto("includes/icons/info.svg", "Cookies", "Terms of use", "Privacity")
+			+contacto("includes/icons/direccion.svg", "GRAMSFOOT", "Seventh Path, 34", "Ettenmoors ET")
+			+contacto("includes/icons/contacto.svg", "Mail:", "info@w3d.com", "Tel: 666 55 44")
+			
+	.container-wallpaper
+	
+	footer
+		p &copy; Copyright 2015 Todos los derechos reservados. Diseñado y desarrollado por W3D Design

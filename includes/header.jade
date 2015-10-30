@@ -1,0 +1,43 @@
+header#inicio
+	.container-nav
+		figure.logo
+			a(href="index.html")
+				img(src="images/logo.svg", alt="")
+
+	nav.main-nav
+		figure.logo-diamond
+			a(href="#")
+				img(src="images/diamond.svg", alt="")
+		ul
+			li
+				a(href="#")
+					include icons/facebook
+			li
+				a(href="#")
+					include icons/twitter
+			li
+				a(href="#")
+					include icons/google-plus
+						
+		a.ir-arriba.scroll(href="#inicio")
+			include icons/arrow.jade
+      
+	.welcome
+		h1 Lorem ipsum dolor sit amet, consectetur adipiscing elit				
+
+.main-menu
+	
+	ul
+		li
+			a.scroll.hoverleft(href="#services") Servicios
+		li
+			a.scroll.hoverleft(href="#who") Quiénes somos
+		li
+			a.scroll.hoverleft(href="#desc1") Desc1
+		li
+			a.scroll.hoverleft(href="#datos") Datos
+		li
+			a.scroll.hoverleft(href="#desc2") Desc2
+		li
+			a.scroll.hoverleft(href="#team") Team
+	

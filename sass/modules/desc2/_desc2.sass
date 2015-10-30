@@ -1,0 +1,52 @@
+#desc2
+	height: 760px
+	display: flex
+	justify-content: flex-end
+	position: relative
+	z-index: 1
+	background:
+		image: url(../images/wallpaper.jpg)
+		repeat: no-repeat
+		position: center center
+		attachment: fixed
+		size: cover
+.desc2-container
+	display: flex
+	width: 50%
+	background: $yellow
+	position: relative
+	height: 100%
+
+	@media (max-width: 1366px)
+		width: 100%
+		justify-content: center
+		align-items: center
+
+	article
+		max-width: 550px
+		width: 90%
+		position: absolute
+		right: 33%
+		height: 760px
+
+		@media (max-width: 1366px)
+			position: static
+			height: 100%
+
+		h2
+			color: black
+			margin: 1.5em 0
+			font-size: 2.4em
+		p
+			font-size: 1.4em
+			font-weight: 800
+			color: $white
+			.span-g
+				color: $grey
+			.span-y
+				color: black
+
+@media screen and (max-width: 105em)
+	.desc2-container
+		article
+			right: 25%

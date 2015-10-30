@@ -1,0 +1,819 @@
+@charset "UTF-8";
+/* line 1, C:/wamp/www/yellow/sass/base/_normalize.sass */
+html {
+  font-family: sans-serif;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+/* line 6, C:/wamp/www/yellow/sass/base/_normalize.sass */
+body {
+  margin: 0; }
+
+/* line 9, C:/wamp/www/yellow/sass/base/_normalize.sass */
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block; }
+
+/* line 12, C:/wamp/www/yellow/sass/base/_normalize.sass */
+audio, canvas, progress, video {
+  display: inline-block;
+  vertical-align: baseline; }
+
+/* line 16, C:/wamp/www/yellow/sass/base/_normalize.sass */
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+/* line 20, C:/wamp/www/yellow/sass/base/_normalize.sass */
+[hidden], template {
+  display: none; }
+
+/* line 23, C:/wamp/www/yellow/sass/base/_normalize.sass */
+a {
+  background-color: transparent; }
+  /* line 25, C:/wamp/www/yellow/sass/base/_normalize.sass */
+  a:active, a:hover {
+    outline: 0; }
+
+/* line 28, C:/wamp/www/yellow/sass/base/_normalize.sass */
+abbr[title] {
+  border-bottom: 1px dotted; }
+
+/* line 31, C:/wamp/www/yellow/sass/base/_normalize.sass */
+b, strong {
+  font-weight: bold; }
+
+/* line 34, C:/wamp/www/yellow/sass/base/_normalize.sass */
+dfn {
+  font-style: italic; }
+
+/* line 37, C:/wamp/www/yellow/sass/base/_normalize.sass */
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0; }
+
+/* line 41, C:/wamp/www/yellow/sass/base/_normalize.sass */
+mark {
+  background: #ff0;
+  color: #000; }
+
+/* line 45, C:/wamp/www/yellow/sass/base/_normalize.sass */
+small {
+  font-size: 80%; }
+
+/* line 48, C:/wamp/www/yellow/sass/base/_normalize.sass */
+sub {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+/* line 54, C:/wamp/www/yellow/sass/base/_normalize.sass */
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+  top: -0.5em; }
+
+/* line 61, C:/wamp/www/yellow/sass/base/_normalize.sass */
+sub {
+  bottom: -0.25em; }
+
+/* line 64, C:/wamp/www/yellow/sass/base/_normalize.sass */
+img {
+  border: 0; }
+
+/* line 67, C:/wamp/www/yellow/sass/base/_normalize.sass */
+svg:not(:root) {
+  overflow: hidden; }
+
+/* line 70, C:/wamp/www/yellow/sass/base/_normalize.sass */
+figure {
+  margin: 1em 40px; }
+
+/* line 73, C:/wamp/www/yellow/sass/base/_normalize.sass */
+hr {
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0; }
+
+/* line 78, C:/wamp/www/yellow/sass/base/_normalize.sass */
+pre {
+  overflow: auto; }
+
+/* line 81, C:/wamp/www/yellow/sass/base/_normalize.sass */
+code, kbd, pre, samp {
+  font-family: monospace, monospace;
+  font-size: 1em; }
+
+/* line 85, C:/wamp/www/yellow/sass/base/_normalize.sass */
+button, input, optgroup, select, textarea {
+  color: inherit;
+  font: inherit;
+  margin: 0; }
+
+/* line 90, C:/wamp/www/yellow/sass/base/_normalize.sass */
+button {
+  overflow: visible;
+  text-transform: none; }
+
+/* line 94, C:/wamp/www/yellow/sass/base/_normalize.sass */
+select {
+  text-transform: none; }
+
+/* line 97, C:/wamp/www/yellow/sass/base/_normalize.sass */
+button, html input[type="button"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 102, C:/wamp/www/yellow/sass/base/_normalize.sass */
+input[type="reset"], input[type="submit"] {
+  -webkit-appearance: button;
+  cursor: pointer; }
+
+/* line 106, C:/wamp/www/yellow/sass/base/_normalize.sass */
+button[disabled], html input[disabled] {
+  cursor: default; }
+
+/* line 109, C:/wamp/www/yellow/sass/base/_normalize.sass */
+button::-moz-focus-inner {
+  border: 0;
+  padding: 0; }
+
+/* line 113, C:/wamp/www/yellow/sass/base/_normalize.sass */
+input {
+  line-height: normal; }
+  /* line 114, C:/wamp/www/yellow/sass/base/_normalize.sass */
+  input::-moz-focus-inner {
+    border: 0;
+    padding: 0; }
+  /* line 118, C:/wamp/www/yellow/sass/base/_normalize.sass */
+  input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0; }
+  /* line 122, C:/wamp/www/yellow/sass/base/_normalize.sass */
+  input[type="number"]::-webkit-inner-spin-button, input[type="number"]::-webkit-outer-spin-button {
+    height: auto; }
+  /* line 124, C:/wamp/www/yellow/sass/base/_normalize.sass */
+  input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box; }
+    /* line 129, C:/wamp/www/yellow/sass/base/_normalize.sass */
+    input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+      -webkit-appearance: none; }
+
+/* line 132, C:/wamp/www/yellow/sass/base/_normalize.sass */
+fieldset {
+  border: 1px solid #c0c0c0;
+  margin: 0 2px;
+  padding: 0.35em 0.625em 0.75em; }
+
+/* line 137, C:/wamp/www/yellow/sass/base/_normalize.sass */
+legend {
+  border: 0;
+  padding: 0; }
+
+/* line 141, C:/wamp/www/yellow/sass/base/_normalize.sass */
+textarea {
+  overflow: auto; }
+
+/* line 144, C:/wamp/www/yellow/sass/base/_normalize.sass */
+optgroup {
+  font-weight: bold; }
+
+/* line 147, C:/wamp/www/yellow/sass/base/_normalize.sass */
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+/* line 151, C:/wamp/www/yellow/sass/base/_normalize.sass */
+td, th {
+  padding: 0; }
+
+/* line 20, C:/wamp/www/yellow/sass/config/_variables.sass */
+body, html {
+  font-family: 'aleolight', sans-serif;
+  font-size: 100%;
+  /*EQUIVALE A 16px en la mayoria de navegadores*/
+  line-height: 1;
+  /*EQUIVALE A 100% en la mayoria de navegadores*/
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  margin: 0;
+  padding: 0; }
+
+/* line 34, C:/wamp/www/yellow/sass/config/_variables.sass */
+p {
+  font-family: 'aleolight', sans-serif;
+  font-size: 1.2em;
+  /*18px/16px= 1.125em;*/
+  line-height: 1.4;
+  /*22px/16px= 1.375*/
+  padding: 0;
+  margin: 0; }
+
+/* line 41, C:/wamp/www/yellow/sass/config/_variables.sass */
+h1 {
+  font-family: 'news_cyclebold', serif;
+  font-size: 3.375em;
+  line-height: 1.3333;
+  color: #fecd1b; }
+
+/* line 48, C:/wamp/www/yellow/sass/config/_variables.sass */
+h2 {
+  font-family: 'news_cyclebold', serif;
+  font-size: 2em;
+  line-height: 1.3333;
+  margin: 0 auto;
+  padding-top: 50px;
+  padding-bottom: 10px;
+  color: #fecd1b; }
+
+/* line 57, C:/wamp/www/yellow/sass/config/_variables.sass */
+h3 {
+  font-family: 'aleobold', sans-serif;
+  font-size: 1.3em;
+  line-height: 1.07;
+  margin: 0 auto; }
+
+/* line 63, C:/wamp/www/yellow/sass/config/_variables.sass */
+h4 {
+  font-size: 1.125em;
+  font-family: 'news_cyclebold', serif;
+  line-height: 1.3333; }
+
+/* line 69, C:/wamp/www/yellow/sass/config/_variables.sass */
+img {
+  text-align: center;
+  max-width: 100%;
+  width: auto;
+  height: auto;
+  display: block; }
+
+/* line 76, C:/wamp/www/yellow/sass/config/_variables.sass */
+a {
+  display: inline-block;
+  width: 100%;
+  height: auto;
+  text-decoration: none;
+  color: #000000; }
+
+/* line 83, C:/wamp/www/yellow/sass/config/_variables.sass */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-family: 'news_cyclebold', serif; }
+
+/* line 89, C:/wamp/www/yellow/sass/config/_variables.sass */
+figure {
+  margin: 0;
+  padding: 0;
+  text-align: center; }
+
+/*MENU*/
+/* line 96, C:/wamp/www/yellow/sass/config/_variables.sass */
+#inicio, #services, #who, #desc1, #datos, #desc2, #team, #contact {
+  right: 0px;
+  transition: all 500ms ease-in-out; }
+  /* line 100, C:/wamp/www/yellow/sass/config/_variables.sass */
+  #inicio.active, #services.active, #who.active, #desc1.active, #datos.active, #desc2.active, #team.active, #contact.active {
+    right: 205px; }
+
+/* line 103, C:/wamp/www/yellow/sass/config/_variables.sass */
+.main-nav {
+  transition: all 500ms ease-in-out; }
+  /* line 105, C:/wamp/www/yellow/sass/config/_variables.sass */
+  .main-nav.active {
+    position: fixed;
+    right: 205px; }
+
+/* EN NUESTRO CASO
+
+	PUNTO DE PARTIDA:
+
+	p{
+		font-size: 1.125em;    17px/16px base= 1.063em
+		line-height: 1.375;	  20px/16px base= 1.25
+	}
+	h1{
+		font-size: 3.375em;    3 veces el tamaño de los parrafos (3x1.125)
+		line-height: 1.375;     Mismo Line-Height
+	}
+	h2{
+		font-size: 2.25em;    2 veces el tamaño de los parrafos (2x1.125)
+		line-height: 1.375;     Mismo Line-Height
+	}
+
+	Para sacar los valores correctos y calcular el resto de elementos que no tienen un estandar (h3,h4..)
+	Calculamos la escala (scale) de la siguiente forma; p font x p line = 1.125x1.375= 1.546875
+	Redondeamos hacia abajo 1.546875 = 1.5 (Este valor es la escala)
+
+	Scale = 1.5
+	3/4 Scale = 1.125
+	1/2 Scale = 0.75		Con estos valores se hacen nuevos calculos
+	1/4 Scale = 0.375
+
+	PUNTO FINAL
+
+	p{
+		font-size: 1.125em;
+		line-height: 1.3333;	1.5 (Scale)/ 1.125= 1.33333
+	}
+	h1{
+		font-size: 3.189em;
+		line-height: 1.3333;
+	}
+	h2{
+		font-size: 2.126em;
+		line-height: 1.3333;
+	}
+
+	h3{
+		font-size: 1.6875em;	1.5 x 1.125=1.6875em
+		line-height: 1.07;	1.5/1.6875 = 0.889 (DEMASIADO PEQUEÑO)
+								Incrementamos en 1/2 de Scale
+								2.25/1.6875 = 1.3333 (DEMASIADO GRANDE)
+								Incrementamos en 1/4 de Scale
+								2/1.875 = 1.07  (OK!)
+
+	}
+	h4{
+		font-size:: 1.125em;		1.5x0.75=1.125em
+		line-height: 1.3333;		1.5/1.125=1.3333
+	}
+
+	MODIFICAMOS LOS VALORES ANTERIORES POR LOS NUEVOS
+
+	*/
+@media screen and (max-width: 45em) {
+  /* line 169, C:/wamp/www/yellow/sass/config/_variables.sass */
+  body, html {
+    font-size: 95%; } }
+
+@font-face {
+  font-family: 'aleobold';
+  src: url('../fonts/aleo-bold-webfont-webfont.eot');
+  src: url('../fonts/aleo-bold-webfont-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/aleo-bold-webfont-webfont.woff2') format("woff2"), url('../fonts/aleo-bold-webfont-webfont.woff') format("woff"), url('../fonts/aleo-bold-webfont-webfont.ttf') format("truetype"), url('../fonts/aleo-bold-webfont-webfont.svg#aleobold') format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'aleolight';
+  src: url('../fonts/aleo-light-webfont-webfont.eot');
+  src: url('../fonts/aleo-light-webfont-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/aleo-light-webfont-webfont.woff2') format("woff2"), url('../fonts/aleo-light-webfont-webfont.woff') format("woff"), url('../fonts/aleo-light-webfont-webfont.ttf') format("truetype"), url('../fonts/aleo-light-webfont-webfont.svg#aleolight') format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'news_cyclebold';
+  src: url('../fonts/newscycle-bold-webfont.eot');
+  src: url('../fonts/newscycle-bold-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/newscycle-bold-webfont.woff2') format("woff2"), url('../fonts/newscycle-bold-webfont.woff') format("woff"), url('../fonts/newscycle-bold-webfont.ttf') format("truetype"), url('../fonts/newscycle-bold-webfont.svg#news_cyclebold') format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+/* line 1, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+.main-nav {
+  border-top: 10px solid #fecd1b;
+  background: black;
+  height: 180px;
+  width: 60px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  z-index: 9999 !important; }
+  /* line 11, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+  .main-nav .logo-diamond {
+    background-color: #fecd1b; }
+    /* line 13, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+    .main-nav .logo-diamond img {
+      margin: 0 auto; }
+  /* line 16, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+  .main-nav ul {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    margin: 5px auto;
+    padding: 0.5em; }
+    /* line 23, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+    .main-nav ul li {
+      margin: 5px auto; }
+  /* line 26, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+  .main-nav .ir-arriba {
+    background-color: #fecd1b; }
+    /* line 30, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+    .main-nav .ir-arriba .arrow {
+      width: 100%;
+      margin: 0.5em 0;
+      fill: black;
+      transition: all 0.3s ease; }
+    /* line 35, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+    .main-nav .ir-arriba:hover .arrow {
+      fill: #f6f6f6; }
+
+/* line 38, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+#facebook {
+  fill: #fecd1b;
+  transition: all 0.35s ease-in-out; }
+  /* line 41, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+  #facebook:hover {
+    fill: #FFFFFF; }
+
+/* line 43, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+#twitter {
+  fill: #fecd1b;
+  transition: all 0.35s ease-in-out; }
+  /* line 46, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+  #twitter:hover {
+    fill: #FFFFFF; }
+
+/* line 48, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+#google-plus {
+  fill: #fecd1b;
+  transition: all 0.35s ease-in-out; }
+  /* line 51, C:/wamp/www/yellow/sass/modules/header/_navbar.sass */
+  #google-plus:hover {
+    fill: #FFFFFF; }
+
+/* line 1, C:/wamp/www/yellow/sass/modules/header/_header.sass */
+header {
+  border-top: 10px solid #fecd1b;
+  height: 1000px;
+  overflow: hidden;
+  position: relative;
+  z-index: 5;
+  background-image: url(../images/header.jpg);
+  background-repeat: no-repeat;
+  background-position: center center; }
+
+/* line 12, C:/wamp/www/yellow/sass/modules/header/_header.sass */
+.container-nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; }
+
+/* line 17, C:/wamp/www/yellow/sass/modules/header/_header.sass */
+.logo {
+  background-color: #fecd1b;
+  width: 250px;
+  padding: 0.5em 0;
+  height: 180px;
+  margin-left: 15em; }
+  /* line 25, C:/wamp/www/yellow/sass/modules/header/_header.sass */
+  .logo img {
+    margin: 0 auto; }
+
+/* line 28, C:/wamp/www/yellow/sass/modules/header/_header.sass */
+.welcome {
+  position: absolute;
+  bottom: 10%; }
+  /* line 31, C:/wamp/www/yellow/sass/modules/header/_header.sass */
+  .welcome h1 {
+    margin-left: 4.4em; }
+
+/* line 1, C:/wamp/www/yellow/sass/modules/services/_services.sass */
+#services {
+  background: #FFFFFF;
+  position: relative;
+  z-index: 3; }
+  /* line 5, C:/wamp/www/yellow/sass/modules/services/_services.sass */
+  #services:after {
+    left: 19.4%;
+    width: 100px;
+    height: 100px;
+    bottom: -50px;
+    background: #FFFFFF;
+    display: block;
+    position: absolute;
+    content: "";
+    transform: translateX(-50%) rotate(45deg); }
+  /* line 16, C:/wamp/www/yellow/sass/modules/services/_services.sass */
+  #services h2, #services h3 {
+    max-width: 1300px;
+    width: 90%;
+    margin: 0 auto;
+    text-transform: uppercase; }
+    /* line 21, C:/wamp/www/yellow/sass/modules/services/_services.sass */
+    #services h2 span, #services h3 span {
+      color: #939393; }
+  /* line 24, C:/wamp/www/yellow/sass/modules/services/_services.sass */
+  #services article p {
+    font-size: 1.5em; }
+
+/* line 27, C:/wamp/www/yellow/sass/modules/services/_services.sass */
+.container-services {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5em 0;
+  flex-wrap: wrap; }
+  /* line 37, C:/wamp/www/yellow/sass/modules/services/_services.sass */
+  .container-services figure {
+    margin: 50px;
+    width: 220px; }
+    /* line 41, C:/wamp/www/yellow/sass/modules/services/_services.sass */
+    .container-services figure img {
+      margin: 15px auto;
+      fill: #fecd1b; }
+
+/* line 1, C:/wamp/www/yellow/sass/modules/who/_who.sass */
+#who {
+  background: #f6f6f6;
+  position: relative;
+  z-index: 2; }
+  /* line 5, C:/wamp/www/yellow/sass/modules/who/_who.sass */
+  #who:after {
+    left: 19.4%;
+    width: 100px;
+    height: 100px;
+    bottom: -50px;
+    background: #f6f6f6;
+    display: block;
+    position: absolute;
+    content: "";
+    transform: translateX(-50%) rotate(45deg);
+    z-index: 2; }
+
+/* line 17, C:/wamp/www/yellow/sass/modules/who/_who.sass */
+.who-container {
+  display: flex;
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 90%;
+  align-items: center;
+  padding: 4.5em 0; }
+  /* line 26, C:/wamp/www/yellow/sass/modules/who/_who.sass */
+  .who-container article {
+    width: 60%;
+    margin: 2em 0; }
+    /* line 30, C:/wamp/www/yellow/sass/modules/who/_who.sass */
+    .who-container article h2 span {
+      color: #939393; }
+    /* line 32, C:/wamp/www/yellow/sass/modules/who/_who.sass */
+    .who-container article p {
+      font-size: 1.4em;
+      font-weight: 800; }
+      /* line 35, C:/wamp/www/yellow/sass/modules/who/_who.sass */
+      .who-container article p .span-g {
+        color: #939393; }
+      /* line 37, C:/wamp/www/yellow/sass/modules/who/_who.sass */
+      .who-container article p .span-y {
+        color: #fecd1b; }
+  /* line 39, C:/wamp/www/yellow/sass/modules/who/_who.sass */
+  .who-container figure {
+    margin: 2em 0; }
+
+/* line 42, C:/wamp/www/yellow/sass/modules/who/_who.sass */
+.image-decoration {
+  margin-top: 7em;
+  margin-left: 10em; }
+
+/* line 1, C:/wamp/www/yellow/sass/modules/desc1/_desc1.sass */
+#desc1 {
+  height: 760px;
+  position: relative;
+  z-index: 1;
+  background-image: url(../images/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+/* line 11, C:/wamp/www/yellow/sass/modules/desc1/_desc1.sass */
+.desc1-container {
+  display: flex;
+  width: 50%;
+  background: #fecd1b;
+  position: relative;
+  height: 100%; }
+  /* line 18, C:/wamp/www/yellow/sass/modules/desc1/_desc1.sass */
+  .desc1-container article {
+    max-width: 550px;
+    width: 90%;
+    position: absolute;
+    right: 10%;
+    height: 760px; }
+    /* line 25, C:/wamp/www/yellow/sass/modules/desc1/_desc1.sass */
+    .desc1-container article h2 {
+      color: black;
+      margin: 1.5em 0;
+      font-size: 2.4em; }
+    /* line 29, C:/wamp/www/yellow/sass/modules/desc1/_desc1.sass */
+    .desc1-container article p {
+      font-size: 1.4em;
+      font-weight: 800;
+      color: #FFFFFF; }
+      /* line 33, C:/wamp/www/yellow/sass/modules/desc1/_desc1.sass */
+      .desc1-container article p .span-g {
+        color: #939393; }
+      /* line 35, C:/wamp/www/yellow/sass/modules/desc1/_desc1.sass */
+      .desc1-container article p .span-y {
+        color: black; }
+
+/* line 1, C:/wamp/www/yellow/sass/modules/datos/_datos.sass */
+#datos {
+  background: black;
+  position: relative;
+  z-index: 2; }
+  /* line 5, C:/wamp/www/yellow/sass/modules/datos/_datos.sass */
+  #datos:after {
+    right: 15%;
+    width: 100px;
+    height: 100px;
+    bottom: -50px;
+    background: black;
+    display: block;
+    position: absolute;
+    content: "";
+    transform: translateX(-50%) rotate(45deg); }
+
+/* line 16, C:/wamp/www/yellow/sass/modules/datos/_datos.sass */
+.container-datos {
+  max-width: 1300px;
+  margin: 0 auto;
+  width: 90%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3.5em 0;
+  flex-wrap: wrap; }
+  /* line 26, C:/wamp/www/yellow/sass/modules/datos/_datos.sass */
+  .container-datos figure {
+    margin: 50px;
+    width: 220px; }
+    /* line 30, C:/wamp/www/yellow/sass/modules/datos/_datos.sass */
+    .container-datos figure img {
+      margin: 15px auto;
+      fill: #fecd1b;
+      width: 125px; }
+    /* line 35, C:/wamp/www/yellow/sass/modules/datos/_datos.sass */
+    .container-datos figure p {
+      color: #FFFFFF; }
+
+/* line 1, C:/wamp/www/yellow/sass/modules/desc2/_desc2.sass */
+#desc2 {
+  height: 760px;
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  z-index: 1;
+  background-image: url(../images/wallpaper.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover; }
+
+/* line 13, C:/wamp/www/yellow/sass/modules/desc2/_desc2.sass */
+.desc2-container {
+  display: flex;
+  width: 50%;
+  background: #fecd1b;
+  position: relative;
+  height: 100%; }
+  /* line 20, C:/wamp/www/yellow/sass/modules/desc2/_desc2.sass */
+  .desc2-container article {
+    max-width: 550px;
+    width: 90%;
+    position: absolute;
+    right: 33%;
+    height: 760px; }
+    /* line 27, C:/wamp/www/yellow/sass/modules/desc2/_desc2.sass */
+    .desc2-container article h2 {
+      color: black;
+      margin: 1.5em 0;
+      font-size: 2.4em; }
+    /* line 31, C:/wamp/www/yellow/sass/modules/desc2/_desc2.sass */
+    .desc2-container article p {
+      font-size: 1.4em;
+      font-weight: 800;
+      color: #FFFFFF; }
+      /* line 35, C:/wamp/www/yellow/sass/modules/desc2/_desc2.sass */
+      .desc2-container article p .span-g {
+        color: #939393; }
+      /* line 37, C:/wamp/www/yellow/sass/modules/desc2/_desc2.sass */
+      .desc2-container article p .span-y {
+        color: black; }
+
+/* line 1, C:/wamp/www/yellow/sass/modules/team/_team.sass */
+#team {
+  background: #FFFFFF;
+  position: relative;
+  z-index: 1;
+  margin-bottom: 770px; }
+  /* line 6, C:/wamp/www/yellow/sass/modules/team/_team.sass */
+  #team .team-container {
+    display: flex;
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 90%;
+    align-items: center; }
+    /* line 12, C:/wamp/www/yellow/sass/modules/team/_team.sass */
+    #team .team-container figure {
+      margin-top: 2em; }
+  /* line 15, C:/wamp/www/yellow/sass/modules/team/_team.sass */
+  #team .container-team {
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 3em; }
+    /* line 25, C:/wamp/www/yellow/sass/modules/team/_team.sass */
+    #team .container-team figure {
+      margin: 30px;
+      width: 220px; }
+      /* line 28, C:/wamp/www/yellow/sass/modules/team/_team.sass */
+      #team .container-team figure img {
+        margin: 15px auto; }
+      /* line 31, C:/wamp/www/yellow/sass/modules/team/_team.sass */
+      #team .container-team figure figcaption .yellow {
+        background-color: black;
+        color: #fecd1b;
+        max-width: 120px;
+        margin: 0.5em auto;
+        padding: 0.1em; }
+  /* line 38, C:/wamp/www/yellow/sass/modules/team/_team.sass */
+  #team .barra {
+    background: #dcae06; }
+    /* line 41, C:/wamp/www/yellow/sass/modules/team/_team.sass */
+    #team .barra article h2 {
+      padding: 0.7em;
+      text-align: center;
+      color: #FFFFFF; }
+
+/* line 1, C:/wamp/www/yellow/sass/modules/socket/_socket.sass */
+#contact {
+  position: fixed;
+  bottom: 0;
+  display: inline-block;
+  width: 100%;
+  height: 760px;
+  border-top: 10px solid #fecd1b;
+  z-index: 0;
+  background-image: url(../images/socket.jpg);
+  background-repeat: no-repeat;
+  background-position: center center; }
+  /* line 15, C:/wamp/www/yellow/sass/modules/socket/_socket.sass */
+  #contact .container-info {
+    width: 50%;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.8);
+    height: 100%; }
+    /* line 23, C:/wamp/www/yellow/sass/modules/socket/_socket.sass */
+    #contact .container-info article {
+      position: absolute;
+      left: 25%;
+      top: 33%; }
+      /* line 27, C:/wamp/www/yellow/sass/modules/socket/_socket.sass */
+      #contact .container-info article h3 {
+        color: #FFFFFF;
+        text-transform: uppercase; }
+    /* line 32, C:/wamp/www/yellow/sass/modules/socket/_socket.sass */
+    #contact .container-info figure img {
+      padding: 1em 0; }
+    /* line 35, C:/wamp/www/yellow/sass/modules/socket/_socket.sass */
+    #contact .container-info figure figcaption p {
+      text-align: left;
+      color: #FFFFFF; }
+    /* line 39, C:/wamp/www/yellow/sass/modules/socket/_socket.sass */
+    #contact .container-info .container-contact {
+      display: flex;
+      flex-wrap: wrap;
+      position: absolute;
+      left: 25%;
+      top: 60%; }
+      /* line 46, C:/wamp/www/yellow/sass/modules/socket/_socket.sass */
+      #contact .container-info .container-contact figure {
+        margin: 5px;
+        width: 220px; }
+  /* line 50, C:/wamp/www/yellow/sass/modules/socket/_socket.sass */
+  #contact .container-wallpaper {
+    width: 50%; }
+  /* line 53, C:/wamp/www/yellow/sass/modules/socket/_socket.sass */
+  #contact footer {
+    background-color: black;
+    width: 100%;
+    display: inline-block;
+    text-transform: uppercase;
+    color: #f6f6f6;
+    text-align: center;
+    position: absolute;
+    bottom: 0; }
+    /* line 63, C:/wamp/www/yellow/sass/modules/socket/_socket.sass */
+    #contact footer p {
+      font-family: 'news_cyclebold', serif;
+      font-size: 1.5em;
+      margin: 1em auto; }
+
+/*# sourceMappingURL=main.css.map */

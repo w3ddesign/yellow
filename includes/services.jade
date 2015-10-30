@@ -1,0 +1,16 @@
+section#services
+	article
+		h2 Lorem Ipsum <span>Consecteur</span>
+		h3 Lorem ipsum dolor sit amet, consectetur adipiscing elit
+		
+	mixin services(img, description)
+		figure
+			img(src="#{img}")
+			figcaption
+				p #{description}
+				
+	div.container-services
+		+services("images/services/heart.svg", "We care about your website as much as you do. Answer customers questions, guide and help them is our number one priority.")
+		+services("images/services/map.svg", "We care about your website as much as you do. Answer customers questions, guide and help them is our number one priority.")
+		+services("images/services/users.svg", "We care about your website as much as you do. Answer customers questions, guide and help them is our number one priority.")
+		+services("images/services/image.svg", "We care about your website as much as you do. Answer customers questions, guide and help them is our number one priority.")

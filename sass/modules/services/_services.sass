@@ -1,0 +1,46 @@
+#services
+	background: $white
+	position: relative
+	z-index: 3
+	&:after
+		left: 19.4%
+		width: 100px
+		height: 100px
+		bottom: -50px
+		background: $white
+		display: block
+		position: absolute
+		content: ""
+		transform: translateX(-50%) rotate(45deg)
+
+	h2, h3
+		max-width: $guide
+		width: 90%
+		margin: 0 auto
+		text-transform: uppercase
+		span
+			color: $grey
+	article
+		p
+			font-size: 1.5em
+
+.container-services
+	max-width: $guide
+	margin: 0 auto
+	width: 90%
+	display: flex
+	justify-content: space-between
+	align-items: center
+	padding: 3.5em 0
+	flex-wrap: wrap
+
+	@media (max-width: 730px)
+		justify-content: center
+
+	figure
+		margin: 50px
+		width: 220px
+
+		img
+			margin: 15px auto
+			fill: $yellow
